@@ -1,0 +1,116 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* side bar */
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 95px;
+    background-color: #ffffff;
+    z-index: 1000;
+    transition: width 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   border-right: 1px solid #e1e2e4;
+}
+
+
+.side-icon-btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 95px;
+    height: 38px;
+    background-color: transparent;
+    align-items: center;
+
+}
+.side-icon-btn:hover .icon{
+    font-size: 32px;
+   
+}
+
+.side-icon-list {
+    margin: 0px;
+    padding: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-icon-name {
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(116, 113, 113);
+    margin: 0px;
+    margin-left: 5px;
+    text-align: start;
+}
+
+.icon {
+    color: rgb(84, 83, 83);
+    font-size: 23px;
+}
+
+
+
+
+.logo-icon {
+    color: white;
+}
+
+.logo-con {
+    margin-bottom: 40px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo-name {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: black;
+}
+
+.logo-btn {
+    background-color: rgb(20, 20, 65);
+    border-radius: 18px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+}
+
+@media (max-width:900px){
+    .side-icon-name {
+        display: none;
+    }
+    .side-bar{
+        width: 40px;
+    }
+    
+.side-icon-btn {
+    width: 40px;
+}
+
+}

@@ -1,0 +1,70 @@
+.recent-container{
+    box-shadow: 0px 4px 16px 0px #e1e2e4;
+    padding: 12px 12px 1px 12px;
+    width: 33%;
+    border-radius: 4px;
+    margin-right: 4px;
+    
+    
+}
+@media (max-width:820px){
+    .recent-container{
+      width: 80%;
+    }
+   }
+   @media (min-width:940px){
+    .recent-container{
+      width: 24%;
+      
+    }
+   }      
+.top-order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recent-list::-webkit-scrollbar {
+    display: none;
+}
+.recent-list{
+    list-style: none;
+    overflow-y: auto;
+    height: 318px;
+    padding-left: 6px;
+}
+.recent-header{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(34, 189, 251);
+}
+.select{
+width: 90px;
+height: 36px;
+font-family: sans-serif;
+font-size: 14px;
+}
+.options{
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+.recent-card{
+    border-left: 1px solid gray;
+    padding-left: 12px;
+
+}
+.recent-head{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.recent-date{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(34, 189, 251);
+}
+.recent-para{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+}

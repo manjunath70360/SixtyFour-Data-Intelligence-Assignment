@@ -1,0 +1,135 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 16px 0px #e1e2e4;
+    border-radius: 4px;
+    padding: 12px 0px;
+    width: 70%;
+    margin-right: 12px;
+    margin-bottom: 14px;
+}
+
+@media (max-width: 820px) {
+    .card-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 940px) {
+    .card-container {
+        width: 68%;
+        margin-right: 12px;
+    }
+}
+
+.card-container-list {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-btn {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.arrow {
+    margin: 6px;
+}
+.no-arrow{
+    display: none;
+}
+
+.list-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    overflow-x: auto;
+    white-space: wrap; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.show-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.list-card::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    margin: 12px;
+    box-shadow: 0px 4px 16px 0px #e1e2e4;
+    width: 170px;
+    height: 290px;
+    border-radius: 4px;
+}
+
+.card-img {
+    width: 170px;
+    height: 50%;
+}
+
+.card-text {
+    padding: 10px;
+    height: 40%;
+}
+
+.card-title {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.card-para {
+    font-family: roboto;
+    font-size: 12px;
+    color: rgb(177, 175, 175);
+}
+
+.view-btn {
+    background-color: rgb(7, 7, 62);
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.dot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: rgb(38, 38, 38);
+  }
+  
